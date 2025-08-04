@@ -4,15 +4,15 @@ import FoodItems from "./components/FoodItems";
 import "./App.css";
 
 function App() {
-  let foodItems = ["Dal", "Green Vegitables", "Roti", "Salad", "Milk", "Ghee"];
-
+  
+let foodItems = ["Sabzi", "Green Vegitables", "Roti", "Salad", "Milk", "Ghee"];
 
  
   return (
     <>
       <h1>Healthy Foods</h1>
-     <ErrorMssg></ErrorMssg>
-     <FoodItems></FoodItems>
+     <ErrorMssg items = {foodItems}></ErrorMssg>
+     <FoodItems items = {foodItems}></FoodItems>
      
     </>
   );
